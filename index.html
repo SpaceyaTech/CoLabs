@@ -1,28 +1,32 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SpaceYaTech CoLabs</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">CoLabs</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SpaceYaTech CoLabs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">CoLabs</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -36,116 +40,124 @@
             <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
             </li> -->
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-    </nav>
-
-    <div class="container my-5">
-      <h1>CoLabs Projects Listing</h1>
-      <div class="col-lg-8 px-0">
-        <p class="fs-5">SpaceYaTech CoLabs is an open-source collaboration project that focuses on enhancing collaboration. We have a listing of projects that are open for contributors(developers, designers, marketers, etc.) and we also allow community members to list their projects to find collaborators. </p>
-        <p>Feel free to fill out this form to have your project listed  <a href="https://airtable.com/shrahlgmnr7Zhqcbz/">here</a></p>
-
-        <hr class="col-1 my-4">
-
-        <a href="https://airtable.com/shrahlgmnr7Zhqcbz/" class="btn btn-primary">Register your Project</a>
-        <a href="https://github.com/SpaceyaTech/" class="btn btn-secondary">View on GitHub</a>
-      </div>
-      <table class="table table-hover">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Project </th>
-            <th scope="col">Description</th>
-            <th scope="col">Colaborating</th>
-            <th scope="col">Status</th>
-            <th scope="col">Tech Stack</th>
-            <th scope="col">Links</th>
-
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mastori</td>
-            <td>Mastori is a community-driven open-source project that aims to provide a simple and efficient blogging platform built with the Django Rest Framework.</td>
-            <td><button type="button" class="btn btn-success">Yes</button></td>
-            <td><button type="button" class="btn btn-success">Active</button>
-            </td>
-            <td>Python Django Rest</td>
-            <td><a href="https://github.com/SpaceyaTech/mastori">github</a>
-            <a href="https://mastori-backend-production.up.railway.app/blog/">mastori</a></td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Swaggs</td>
-            <td>E-commerce shop site for community. swaggs platform is built with the Django Rest Framework.</td>
-            <td><button type="button" class="btn btn-danger">No</button>
-            </td><td><button type="button" class="btn btn-success">Active</button>
-            </td>
-            <td>Python Django Rest</td>
-            <td><a href="https://github.com/SpaceyaTech/">github</a>
-            <a href="https://swaggs.up.railway.app/redoc/">Swaggs</a></td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Symbiont</td>
-            <td>Symbiont is a social media platform that has a chrome extension that allows anyone to comment in a message thread leading off any word on any website in the world.</td>
-            <td><button type="button" class="btn btn-success">Yes</button></td>
-            <td><button type="button" class="btn btn-success">Active</button></td>
-            <td>Java - React or Angular and some TypeScript - SQL - CSS</td>
-            <td><a href="https://spaceyatech.github.io/CoLabs/projects/symbiont/">Symbiont</a></td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>Git Metrics</td>
-            <td>Git metrics is a Java project that can inspect the git history of a project and provide metrics on contribution by contributors.</td>
-            <td><button type="button" class="btn btn-success">Yes</button></td>
-            <td><button type="button" class="btn btn-success">Active</button></td>
-            <td>Java - React or Angular </td>
-            <td><a href="#">github</a>
-            <a href="https://github.com/SpaceyaTech/CoLabs/wiki/Git-Metrics">Git Metrics</a></td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Eaty</td>
-            <td>a A complete DevOps project that takes you through the entire development process of a DevOps project from a blank code editor to  a deployed app by building a meal generator that helps you brainstorm on daily meal ideas.</td>
-            <td><button type="button" class="btn btn-success">Yes</button></td>
-            <td><button type="button" class="btn btn-success">Active</button></td>
-            <td>Java - React or Angular </td>
-            <td><a href="#">github</a>
-            <a href="https://github.com/Code-AfterWork/eaty">Eaty</a></td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>SYT Website Redesign</td>
-            <td>Redesign of our website</td>
-            <td><button type="button" class="btn btn-success">Yes</button></td>
-            <td><button type="button" class="btn btn-success">Active</button></td>
-            <td>Java - React or Angular </td>
-            <td><a href="#">github</a>
-            <a href="https://github.com/SpaceyaTech/SYT-Web-Redesign">SYT Website Redesign</a></td>
-          </tr>
-          <tr>
-            <th scope="row">7</th>
-            <td>FLB Music</td>
-            <td>A popular cross platform desktop music player</td>
-            <td><button type="button" class="btn btn-success">Yes</button></td>
-            <td><button type="button" class="btn btn-success">Active</button></td>
-            <td>VueJs, ElectronJs, NodeJs</td>
-            <td>
-            <a href="https://github.com/FLB-Music/FLB-Music-Player">FLB Music</a></td>
-          </tr>
-        </tbody>
-      </table>
     </div>
+  </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <div class="container my-5">
+    <h1>CoLabs Home</h1>
+    <div class="col-lg-8 px-0">
+      <p>
+        Welcome to SpaceYaTech Colabs! Colabs is the Project division of SpaceYaTech
+      </p>
+    </div>
+    <p>
+      There are 5 kinds of projects we work with:
+    <ul>
+      <li><a href="#OpenSource">Open Source</a></li>
+      <li><a href="#ClosedSource">Closed Source</a></li>
+      <li><a href="#MonetisationEffortBased">Monetisation Effort Based</a></li>
+      <li><a href="#Infrastructure">Infrastructure projects</a></li>
+      <li><a href="#Client">Client projects</a></li>
+    </ul>
+    </p>
+    <p>
+      Click here to see our project directory: <a href="projects.html">Projects</a>
+    </p>
+    <p>
+      For benefits of creating or joining projects see:
+      <a href="#BenefitsProjects">Benefits of Projects</a>
+    </p>
+
+    <p>
+      <br />
+    <h4><a name="OpenSource">Open Source</a></h4>
+    Open Source projects have different flavours of licenses:
+    <ul>
+      <li>The Apache License</li>
+      <li>MIT License</li>
+      <li>GNU General Public License (GPL)</li>
+      <li>BSD Licenses</li>
+      <li>GNU Lesser General Public License (LGPL)</li>
+      <li>Mozilla Public License (MPL)</li>
+    </ul>
+    Licenses like GPL say that if your code is consumed by another project that project must also
+    add the GPL license, you cannot protect your intellectual property or prevent others from
+    making cash out of your license. You cannot consume a GPL component and then create a private
+    proprietary license that hides your source code and prevents others monetings from it.
+    <br /><br />
+
+    </p>
+    <p>
+      <br />
+    <h4><a name="ClosedSource">Closed Source</a></h4>
+    Closed Source projects are private.
+    </p>
+    <p>
+      <br />
+    <h4><a name="MonetisationEffortBased">Monetisation Effort Based Licenses</a></h4>
+    These projects have licenses that specify that in the event of monetisation, monies shall be
+    distributed in proportion to effort as measured by git contributions. This mimics creating
+    companies and share holdings except the % sharing is dynamic and there is no red tape or cost
+    for maintaining the shares.
+    </p>
+    <p>
+      <br />
+    <h4><a name="Infrastructure">Infrastructure Projects for SpaceYaTech</a></h4>
+    These include projects like:
+    <ul>
+      <li>Mentorlst platform</li>
+      <li>Shop</li>
+      <li>Blog</li>
+      <li>SpaceYaTech website</li>
+    </ul>
+    </p>
+    <p>
+      <br />
+    <h4><a name="Client">Client Projects</a></h4>
+    Every member of SpaceYaTech has "a Software house on Standby" and can become a "Go Between"
+    between an end client and the SpaceYaTech devs, testers, product designers, architects,
+    business analysts and project managers.
+    </p>
+    <p>
+      SpaceYaTech can help train "Go Betweens" on:
+    <ul>
+      <li>Winning Tenders</li>
+      <li>Creating quote documents</li>
+      <li>Breaking down requirements into features</li>
+      <li>Pricing features</li>
+      <li>Spinning up umbrella companies for payroll</li>
+    </ul>
+
+    These "Go Betweens" can make a lot of cash.
+    </p>
+    <p>
+      <br />
+    <h4><a name="BenefitsProjects">Benefits of Projects</a></h4>
+    <ul>
+      <li>Building Experience</li>
+      <li>CV / References</li>
+      <li>Finding / Recommending someone</li>
+      <li>Getting people to work on your project</li>
+      <li>Sharing code across projects</li>
+      <li>Monetising on projects</li>
+      <li>Getting mentorship for your project</li>
+      <li>Getting Investment for your project</li>
+      <li>Building up experience so you have a software house on standby</li>
+      <li>Licences with monetisation rules</li>
+      <li>Project Directory</li>
+    </ul>
+    </p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
     <script src="main.js"></script>
-  </body>
+</body>
+
 </html>
